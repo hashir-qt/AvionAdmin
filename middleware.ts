@@ -28,5 +28,5 @@ export function middleware(request: NextRequest) {
 }
 
 export const config = {
-  matcher: ["/admin", "/admin/:path*"], // Apply middleware to /admin and all child routes
+  matcher: ["/admin", "/admin/orders","/admin/dashboard"], // Apply middleware to /admin and all child routes
 };
